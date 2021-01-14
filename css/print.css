@@ -1,0 +1,509 @@
+html, body, div {
+	top: 0;
+	margin: 0;
+	padding: 0;
+}
+
+h4, h5, h6,
+h1, h2, h3 {margin: 0;}
+ul, ol {margin: 0;}
+p {margin: 0;}
+
+div.container {
+	width: 100%; 
+}
+
+/* Header */
+
+header h2{
+	font-family: "Times New Roman" 
+}
+
+header p {
+	font-family: "Calibri";
+}
+
+header h5 {
+	font-weight: initial; ;
+}
+
+header div.headCon {
+	width: 50%;
+	margin-left: 25%;
+	text-align: center; 
+}
+
+/* Section */
+
+section div.secCon {
+	width: 95%;
+	height: 100%;
+	margin-left: 2.5%;
+}
+
+section div.secCon table#tableData {
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 12px;
+	font-family: "Calibri";
+	margin-top: 30px;
+	border: 1px solid #808080; 
+}
+
+section div.secCon table#tableData td {
+	padding: 8px;
+	text-align: center;
+	border: 1px solid #808080;  
+}
+
+/* Footer */
+
+footer div.footCon {
+	width: 100%;
+	font-family: "Calibri Light";
+	font-size: 12px;
+}
+
+footer div.footCon div#f1 span p{
+	display: inline-block; 
+}
+
+footer div.footCon div#f2 span p{
+	display: inline-block; 
+}
+
+footer div.footCon div#f1 span p#fp1 {
+	margin-left: 60%;
+}
+
+footer div.footCon div#f1 span p#fp2 {
+	margin-left: 1%;
+}
+
+footer div.footCon div#f1 span p#fp3 {
+	margin-left: 1%;
+}
+
+footer div.footCon div#f1 {
+	width: 100%;
+}
+
+footer div.footCon div#f1 span.f1s1 {
+	display: inline-block;
+	width: 48%;
+	text-align: center; 
+}
+
+footer div.footCon div#f1 span.f1s2 {
+	display: inline-block;
+	width: 20%;
+	text-align: center; 
+}
+
+footer div.footCon div#f1 span.f1s3 {
+	display: inline-block;
+	width: 20%;
+	text-align: center; 
+}
+
+footer div.footCon div#f1 span input {
+	border: none;
+	cursor: pointer;
+	text-align: center;
+}
+
+footer div.footCon span#btn {
+	display: inline-block;
+	margin-left:45%;
+}
+
+footer div.footCon button#prnt {
+	width: 80px;
+	padding: 4px;
+	border: 1px solid #4cae4c;
+	border-radius: 4px; 
+	margin-top:30px;
+	background-color: #5cb85c;
+	color: #ffffff;
+	font-family: "Calibri";
+	font-size: 16px;
+}
+
+footer div.footCon button#back {
+	width: 80px;
+	padding: 4px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	margin-top:30px;
+	background-color: #ff0000;
+	color: #ffffff;
+	font-family: "Calibri";
+	font-size: 16px;
+}
+
+footer div.footCon div#f2 {
+	padding-top: 20px;
+	width: 100%;
+}
+
+
+footer div.footCon div#f2 span p#fp4 {
+	margin-left: 3%;
+}
+
+footer div.footCon div#f2 span p#fp5 {
+	margin-left: 3%;
+}
+
+
+footer div.footCon div#f2 span p#fp7 {
+	margin-left: 3%;
+}
+
+footer div.footCon div#f2 span p#fp6 {
+	margin-left: 4%;
+}
+
+footer div.footCon div#f2 span input {
+	border:none;
+	cursor: pointer; 
+	text-align: center;
+	font-family: "Calibri Light";
+	font-size: 13px;
+	width: 16%;
+}
+
+footer div.footCon div#f3 {
+	padding-top: 30px;
+	width: 100%;
+	font-family: "Calibri Light";
+}
+
+footer div.footCon div#f3 span {
+	display: inline-block;
+	text-align: center;
+	width: 11%;
+}
+
+footer div.footCon div#f3 span input#fi1 {
+	font-family: "Calibri Light";
+	text-align: center;
+	font-size: 13px;
+}	
+
+footer div.footCon div#f3 span input#fi2 {
+	font-family: "Calibri Light";
+	text-align: center;
+	width: 100%;
+	font-size: 13px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid black; 
+}
+
+footer div.footCon div#f3 span input#fi1 {
+	width: 100%; 
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid black; 
+	cursor: pointer;
+}
+
+footer div.footCon div#f3 span#fs1 {
+	margin-left: 5%;
+}
+
+footer div.footCon div#f3 span#fs2 {
+	margin-left: 1%;
+}
+
+footer div.footCon div#f3 span#fs1 p#fp{
+	font-weight: bold;
+}
+
+footer div.footCon div#f3 span#fs2 p#fp{
+	font-weight: bold;
+}
+
+/*------------- f4 --------------------*/
+footer div.footCon div#f4 {
+	padding-top: 20px;
+	width: 100%; 
+}
+
+footer div.footCon div#f4 span.f4s1 {
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+}
+
+footer div.footCon div#f4 span.f4s1 input {
+	width: 45%;
+	font-family: "Calibri Light";
+	font-size: 12px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+
+		
+div.secCon table#tableData tbody tr td input {
+	width: 100%;
+	border: none;
+}
+
+
+
+@media print {
+
+	html, body, div {
+		top: 0;
+		margin: 0;
+		padding: 0;
+	}
+
+	h4, h5, h6,
+	h1, h2, h3 {margin: 0;}
+	ul, ol {margin: 0;}
+	p {margin: 0;}
+
+	div.container {
+		width: 100%;
+	}
+
+	/* Header */
+
+	header h2{
+		font-family: "Times New Roman" 
+	}
+
+	header p {
+		font-family: "Calibri Light";
+	}
+
+	header h5 {
+		font-weight: initial; ;
+	}
+
+	header div.headCon {
+		width: 50%;
+		margin-left: 25%;
+		text-align: center; 
+	}
+
+	/* Section */
+
+	section div.secCon {
+		width: 95%;
+		height: 100%;
+	}
+
+	section div.secCon table#tableData {
+		border-collapse: collapse;
+		width: 100%;
+		font-size: 10px;
+		font-family: "Calibri Light";
+		border: 1px solid #808080;   
+	}
+
+	section div.secCon table#tableData td {
+		padding: 8px;
+		text-align: center;
+		border: 1px solid #808080;   
+	}
+
+	/* Footer */
+
+	footer div.footCon {
+		width: 100%;
+		font-size: 12px;
+		font-family: "Calibri Light";
+	}
+
+	footer div.footCon div#f1 span p{
+		display: inline-block; 
+	}
+
+	footer div.footCon div#f2 span p{
+		display: inline-block; 
+	}
+
+	footer div.footCon div#f1 span p#fp1 {
+		margin-left: 60%;
+	}
+
+	footer div.footCon div#f1 span p#fp2 {
+		margin-left: 1%;
+	}
+
+	footer div.footCon div#f1 span p#fp3 {
+		margin-left: 1%;
+	}
+
+	footer div.footCon div#f1 {
+		width: 100%;
+		padding-top: 10px; 
+	}
+
+	footer div.footCon div#f1 span.f1s1 {
+		display: inline-block;
+		width: 48%;
+		text-align: center; 
+	}
+
+	footer div.footCon div#f1 span.f1s2 {
+		display: inline-block;
+		width: 20%;
+		text-align: center; 
+	}
+
+	footer div.footCon div#f1 span.f1s3 {
+		display: inline-block;
+		width: 20%;
+		text-align: center; 
+	}
+
+	footer div.footCon div#f1 span input {
+		border: none;
+		text-align: center;
+	}
+
+	footer div.footCon button#prnt{
+		display: none;
+	}
+
+	footer div.footCon button#back{
+		display: none;
+	}
+
+	footer div.footCon div#f1 span {
+		display: inline-block;
+		width: 33%;
+		text-align: center; 
+	}
+
+	footer div.footCon div#f1 span input {
+		width: 50%;
+		cursor: pointer;
+	}
+
+	footer div.footCon div#f2 {
+		padding-top: 20px;
+		width: 100%;
+	}
+
+	footer div.footCon div#f2 span p#fp4 {
+		margin-left: 3%;
+	}
+
+	footer div.footCon div#f2 span p#fp5 {
+		margin-left: 3%;
+	}
+
+
+	footer div.footCon div#f2 span p#fp7 {
+		margin-left: 3%;
+	}
+
+	footer div.footCon div#f2 span p#fp6 {
+		margin-left: 4%;
+	}
+
+	footer div.footCon div#f2 span input {
+		border:none;
+		cursor: pointer; 
+		text-align: center;
+		font-family: "Calibri Light";
+		font-size: 12px;
+		width: 16%;
+	}
+	footer div.footCon div#f3 {
+		padding-top: 10px;
+		width: 100%;
+		font-family: "Calibri Light";
+	}
+
+	footer div.footCon div#f3 span {
+		display: inline-block;
+		text-align: center;
+		width: 11%;
+	}
+
+	footer div.footCon div#f3 span input#fi1 {
+		font-family: "Calibri Light";
+		text-align: center;
+		font-size: 12px;
+	}	
+
+	footer div.footCon div#f3 span input#fi2 {
+		font-family: "Calibri Light";
+		text-align: center;
+		width: 100%;
+		font-size: 12px;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		border-bottom: 1px solid #808080; 
+	}
+
+	footer div.footCon div#f3 span input#fi1 {
+		width: 100%; 
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		border-bottom: 1px solid #808080; 
+		cursor: pointer;
+	}
+
+	footer div.footCon div#f3 span#fs1 {
+		margin-left: 5%;
+	}
+
+	footer div.footCon div#f3 span#fs2 {
+		margin-left: 1%;
+	}
+
+	footer div.footCon div#f3 span#fs1 p#fp{
+		font-weight: bold;
+		color: #b3b3b3;
+	}
+
+
+	footer div.footCon div#f3 span#fs2 p#fp{
+		font-weight: bold;
+		color: #b3b3b3;
+	}
+
+	footer div.footCon div#f4 {
+		padding-top: 20px;
+		width: 100%; 
+		color: #b3b3b3;
+	}
+
+	footer div.footCon div#f4 span.f4s1 {
+		display: inline-block;
+		width: 25%;
+		text-align: center;
+	}
+
+	footer div.footCon div#f4 span.f4s1 input {
+		width: 45%;
+		font-family: "Calibri Light";
+		font-size: 12px;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		border-bottom: 1px solid #808080;
+		text-align: center;
+	}
+		
+	div.secCon table#tableData tbody tr td input#remarks {
+		width: 100%;
+		border: none;
+	}
+
+}
