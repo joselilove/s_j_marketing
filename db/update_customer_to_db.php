@@ -35,4 +35,3 @@
 	else{
 		echo $result;
 	}
-?>

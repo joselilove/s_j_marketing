@@ -12,4 +12,3 @@
         break;
     }
     echo $amount;
-?>

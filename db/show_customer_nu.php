@@ -12,4 +12,3 @@
         $amount += 1;
     }
     echo $amount;
-?>

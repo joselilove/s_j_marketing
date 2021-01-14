@@ -13,4 +13,3 @@ $query = "SELECT * FROM `products`, `customer` WHERE serial_number = product_ser
 //        break;
     }
     echo $amount;
-?>

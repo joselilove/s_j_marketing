@@ -20,11 +20,11 @@
             ?>
 <!--main content start-->
 <section id="main-content">
-	<section class="wrapper">
+    <section class="wrapper">
       <?php
           include 'carting.php';
       ?>  
-		<div class="table-agile-info">
+        <div class="table-agile-info">
   <div class="panel panel-default">
     <div class="panel-heading" style="background-color: #f0bcb4 ! important;">
 
@@ -71,11 +71,11 @@
 </div>
 </section>
  <!-- footer -->
-		  <div class="footer">
-			<div class="wthree-copyright">
-			  
-			</div>
-		  </div>
+          <div class="footer">
+            <div class="wthree-copyright">
+              
+            </div>
+          </div>
   <!-- / footer -->
 </section>
 
@@ -270,33 +270,33 @@ function show_cart(){
             }
 function view_inventory(){
   destination = "db/view_inventory.php";
-	var xhr = new XMLHttpRequest();
-	xhr.open("GET", destination, true);
-	xhr.send();
-	xhr.onreadystatechange=function(){
-		if (xhr.readyState ==4 && xhr.status == 200) {
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", destination, true);
+    xhr.send();
+    xhr.onreadystatechange=function(){
+        if (xhr.readyState ==4 && xhr.status == 200) {
       Obj = JSON.parse(xhr.responseText);
       data = Obj;
       display_inventory(Obj);
-		}
-	}   
+        }
+    }   
 }
 
 function find_product(){
   var serial_number = document.getElementsByName('inventory_search')[0].value;
     var sort = document.getElementById("sorting").value;
   destination = "db/find_product.php?serial_number="+serial_number+"&sort="+sort;
-	var xhr = new XMLHttpRequest();
-	xhr.open("GET", destination, true);
-	xhr.send();
-	xhr.onreadystatechange=function(){
-		if (xhr.readyState ==4 && xhr.status == 200) {
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", destination, true);
+    xhr.send();
+    xhr.onreadystatechange=function(){
+        if (xhr.readyState ==4 && xhr.status == 200) {
       Obj = JSON.parse(xhr.responseText);
             current_page = 0;
             end_page = 5;
       display_inventory(Obj);
-		}
-	}
+        }
+    }
 }
 var q_ca = false;
 var len = 0;
@@ -318,7 +318,7 @@ function display_inventory(prodData){
                     +"</tr>"
                     +"</thead>";
                    var l = '"'; 
-	// for (var i = 0; i < prodData.product_name.length; i++) {
+    // for (var i = 0; i < prodData.product_name.length; i++) {
     for (var i = current_page ; i <= end_page; i++) {
           if(i >= prodData.product_name.length){
             end_page = end_page - 6;
@@ -362,8 +362,8 @@ function display_inventory(prodData){
                     +"</tr>"
                     +"</tbody>";
        }
-	}
-	document.getElementById("inventory_table").innerHTML = inventory_info;
+    }
+    document.getElementById("inventory_table").innerHTML = inventory_info;
 }
 
 function add_customer(){
@@ -422,5 +422,5 @@ function add_customer(){
         $("#success-alert").hide();
         $("#danger-alert_c").hide();
         $("#success-alert_c").hide();
-	});
+    });
 </script>

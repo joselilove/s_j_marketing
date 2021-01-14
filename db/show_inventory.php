@@ -22,4 +22,3 @@
 	}	
 	// }
 	echo $myJSON = json_encode($myObj);
-?>
