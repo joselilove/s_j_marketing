@@ -18,7 +18,7 @@
         </header>
         <!--header end-->
         <?php
-        include 'template\sidebar.php';
+        include 'template/sidebar.php';
         ?>
 
         <!--main content start-->

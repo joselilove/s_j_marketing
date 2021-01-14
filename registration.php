@@ -3,7 +3,7 @@
 <head>
     <title>S & J Marketing</title>
     <?php
-    include 'template\plugins.php';
+    include 'template/plugins.php';
     ?>
     <script src="javascript/action.js"></script>
 </head>

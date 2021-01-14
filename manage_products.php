@@ -3,7 +3,7 @@
 <head>
   <title>S & J Marketing</title>
   <?php
-  include 'template\plugins.php';
+  include 'template/plugins.php';
   ?>
 </head>
 
@@ -18,7 +18,7 @@
     </header>
     <!--header end-->
     <?php
-    include 'template\sidebar.php';
+    include 'template/sidebar.php';
     ?>
     <!--main content start-->
     <section id="main-content">
