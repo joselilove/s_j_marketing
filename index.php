@@ -16,12 +16,15 @@ if (isset($_SESSION['login_admin'])) {
     include "template/plugins.php";
     ?>
 </head>
+<style>
+</style>
 
 <body>
     <div class="log-w3">
         <div class="w3layouts-main">
             <h2>Sign In Now</h2>
             <form action="login.php" method="post">
+                <p class="text-error-message"><?php echo isset($_SESSION["login_message"]) ? $_SESSION["login_message"] : ''; ?></p>
                 <input id="user" type="text" class="ggg" name="username" placeholder="Username" required>
                 <input type="password" class="ggg" name="Password" placeholder="Password" required>
                 <div class="clearfix"></div>
@@ -52,3 +55,7 @@ if (isset($_SESSION['login_admin'])) {
 </script>
 
 </html>
+
+<?php
+unset($_SESSION['login_message']);
+?>

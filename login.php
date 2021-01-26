@@ -1,6 +1,7 @@
 <?php
 session_start();
 include "db/connection.php";
+include "db/displayAlert.php";
 
 $username = $_POST['username'];
 $password = $_POST['Password'];
@@ -8,6 +9,7 @@ $password = $_POST['Password'];
 $sql = "SELECT * FROM user WHERE username = '$username'";
 $result = mysqli_query($connect, $sql);
 $count = mysqli_num_rows($result);
+$message = 'Incorrect username or password!';
 
 while ($rows = mysqli_fetch_assoc($result)) {
 
@@ -27,15 +29,13 @@ while ($rows = mysqli_fetch_assoc($result)) {
 
         $_SESSION['login_user'] = $username;
         $_SESSION['login_name'] = $full_name;
-        echo "
-                        <script>
-                            window.location = 'home.php';
-                        </script>
-                ";
+        $message = 'Welcome';
+        header("location: home.php");
     } else {
-        echo "	<script>
-                            alert('Incorrect username or password!');
-                            window.location='index.php';
-                        </script>";
+        $message = 'Incorrect username or password!';
     }
 }
+
+$_SESSION["login_message"] = $message;
+
+header("location: index.php");
