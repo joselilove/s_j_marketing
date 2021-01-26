@@ -25,9 +25,7 @@
             <section class="wrapper">
                 <?php
                 include 'template/status.php';
-                // include 'template/calendar.php';
-                // include 'template/graph_stat.php';
-                // include 'template/stat.php';
+                include 'template/calendar.php';
                 ?>
             </section>
             <!-- footer -->
